@@ -3,8 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     max-width: 99%;
-   
-
 }
 body{  
   background-image: url("img/fondo-ok.png");
@@ -22,8 +20,6 @@ body{
     position: relative;
     animation-name: titulo;
     animation-duration: 4s;
-     
-   
 }
 @keyframes titulo {
     0%   {background-color:rgba(115, 13, 62, 0.585); left:0px; top:0px;}
@@ -31,21 +27,13 @@ body{
     50%  {background-color:rgb(37, 83, 126); left:200px; top:200px;}
     75%  {background-color:rgba(53, 153, 53, 0.49); left:0px; top:200px;}
     100% {background-color:rgba(115, 13, 62, 0.585); left:0px; top:0px;}
-  }
-
-  
+}
 h1{ 
-    
-    /* text-align: center; */
     color: rgb(249, 226, 196);
     padding-top: 10px;
     font-size: 30px;
     text-decoration:underline;
-    
-    
 }
-
- 
 
 .logo{
     height: 100px;
@@ -56,8 +44,6 @@ h1{
     display: block;
     height: 100%;
 }
-
-
 .filtros {
     display: flex;
     justify-content: space-between;
@@ -65,22 +51,13 @@ h1{
     align-items: center;
     border: 10px;
     list-style: none;
-    
- 
-    
 }
- 
-
-
 .listaDeFiltros nav {
     list-style-type: none;
-    
-    
 }
 
 
 .listaDeFiltros nav li a {
-    
     color: rgb(144, 11, 93);
     text-decoration: none;
     padding: 10px;
@@ -90,9 +67,6 @@ h1{
     background-color: rgb(202, 218, 161);
     border-radius: 8px;
     list-style: none;
-    
-    
-    
 }
 
 .listaDeFiltros nav li a:hover {
@@ -117,9 +91,6 @@ h1{
 .tituloFiltros nav li:hover > ul {
     display: block;
 }
-
-
-
 
 .container{
     display: flex;
@@ -150,25 +121,21 @@ h1{
     border: 5px;;
     border-radius: 7px;
     color: rgb(239, 239, 20);
-    
     font-size: 15px;
     text-decoration: none;
     animation-name: box;
     animation-duration: 3s;
-    
-   
 }
 @keyframes box {
     from {background-color: rgba(255, 145, 0, 0.543);}
     to {background-color: rgba(208, 208, 60, 0.597);}
-  }
+}
 .card img{
     border-radius: 30px;
     width: 150px;
     height: 150px;
     border: solid rgb(53, 75, 177);
     margin: 2px;
-  
 }
 
 .card button{
@@ -181,39 +148,25 @@ h1{
     font-size: 10px;
 }
 .card p{
-   
     margin: 5px;
     font-size: 15px;
-    
-
     color: rgb(38, 6, 81);
-
 }
 
 .paginacion{
     text-align: center;
     margin: 50px;
-    
-    
-    
 }
 .paginacion button{
     margin: 25px;
     background-color: rgba(246, 155, 246, 0)
-
-
 }
 .paginacion img{
     border-radius: 30px;
     width: 20px;
     height: 20px;
     border: solid rgb(53, 75, 177);
-    
-  
 }
-
-
-
 footer{
     padding: 60px;
     text-align: center;
@@ -221,11 +174,7 @@ footer{
     margin: 8px;
     font-size: 20px;
     color: bisque;
-   
 }
-
-
-
 
 @media (max-width:375px){
     header ul li{

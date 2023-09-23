@@ -16,8 +16,7 @@ let totalPag = 0;
 const btnSig= document.getElementById("siguiente");
 const btnAnt= document.getElementById("anterior");
    
-           
-
+      
 const totalPersonajes = () =>{
     fetch(`${apiResponse}/character`) 
     .then (res => res.json())
@@ -59,8 +58,6 @@ const verDescripcion = (characterUrl) => {
   
 // Filtros//
 
-
-
 const filtrosPersonajes = (parFiltro,valorFiltro) => {
     fetch (`https:rickandmortyapi.com/api/character/?${parFiltro}=${valorFiltro}`)
     .then (res => res.json())
@@ -99,8 +96,6 @@ alienBtn.addEventListener("click",() =>{
 
 
 //paginación//
-
-
 
 const pagSiguiente = (numPag) => {
 container.innerHTML=""
